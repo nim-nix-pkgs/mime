@@ -11,6 +11,7 @@
   inputs.src-mime-master.ref   = "refs/heads/master";
   inputs.src-mime-master.owner = "enthus1ast";
   inputs.src-mime-master.repo  = "nimMime";
+  inputs.src-mime-master.dir   = "";
   inputs.src-mime-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
