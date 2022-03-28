@@ -11,7 +11,6 @@
   inputs.src-mime-v0_0_3.ref   = "refs/tags/v0.0.3";
   inputs.src-mime-v0_0_3.owner = "enthus1ast";
   inputs.src-mime-v0_0_3.repo  = "nimMime";
-  inputs.src-mime-v0_0_3.dir   = "";
   inputs.src-mime-v0_0_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
